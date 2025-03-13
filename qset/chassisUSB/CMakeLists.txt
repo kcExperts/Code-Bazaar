@@ -19,7 +19,7 @@ add_executable(main
     chassis_board.cpp 
     dependencies/usb_chassis_defs.h 
     dependencies/usb_dev.h 
-    dependencies/esb_packet.h
+    dependencies/usb_packet.h
 )
 target_link_libraries(main ${LIBUSB_LIBRARIES})
 

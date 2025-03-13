@@ -1,7 +1,7 @@
 #ifndef CHASSIS_BOARD_H
 #define CHASSIS_BOARD_H
 
-#include "usb_packet.h"
+#include "dependencies/usb_packet.h"
 #include <libusb-1.0/libusb.h>
 
 /**
